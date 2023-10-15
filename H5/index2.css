@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Inter:wght@900&family=Anton&family=Catamaran:wght@200;300;400&family=Dancing+Script&family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@800&family=Poppins:wght@200;300&family=Ruda:wght@400;500;600;700;800;900&display=swap');
+
+*:root{
+    --clr-bg: #5CE1E6;
+    --clr-wh: rgb(250,250,250);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.container {
+    position: relative;
+    background: var(--clr-bg);
+    height: 100vh;
+}
+
+.linea {
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    background:var(--clr-wh);
+    left: 2.5%;
+}
+
+
+.box1 {
+    border: 1px solid black;
+    height: 50%;
+    width: 87.5%;
+    margin-left: 12.5%;
+}
+
+img {
+    width: 50%;
+    height: 100%;
+}
+
+.title1 {
+    display: flex;
+    align-content: center;
+    padding: 15% 10% 10% 10%;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+}
+
+
+.box2 {
+    width: 87.5%;
+    height: 50%;
+    margin-left: 12.5%;
+}
+
+.title2 {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 10% 10% 10% 10%;
+    text-align: left;
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+span > p {
+    margin-top: 10%;
+    font-size: .75rem;
+    font-weight: 500;
+}

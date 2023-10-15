@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*:root{
+    --box-select: #004AAD;
+    --bg: #290059;
+    --letter: #1E0042;
+    --letter-main: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--clr-letter-main);
+}
+
+.container{
+    height: 100vh;
+    background-color: var(--bg);
+}
+
+h1 {
+    padding-top: 5%;
+    color: var(--letter-main);
+    text-align: center; 
+    font-size: 9vh;
+    font-weight: 700;
+}
+
+h2 {
+    color: var(--letter-main); 
+    text-align: center;
+    font-weight: 400;
+    font-size: 3.5vh; 
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 5% 10% 0 10%;
+}
+
+.card {
+    padding: 5%;
+    border-radius: 10%;
+    height: 550px;
+    width: 400px;
+    background: var(--letter-main);
+    border: 1px solid black;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: center;
+    color: var(--bg);
+}
+
+h4 {
+    font-size: 1.75rem;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: 600;
+    color: #5a4f4f;
+}
+
+hr {
+    margin: 5% 15% 0 15%;
+    width: 70%;
+}
+
+.btn {
+    width: 100%;
+    height: 15%;
+    font-size: 25px;
+    margin-top: 25%;
+    background: var(--box-select);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--letter-main);
+    cursor: pointer;
+    border-radius: 5%;
+}

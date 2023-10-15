@@ -1,0 +1,50 @@
+* {
+margin: 0;
+}
+
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(135, 181, 197);
+    height: 15vh;
+}
+
+main {
+    background: rgb(160, 0, 60);
+    height: 25vh;
+    margin-bottom: 20px;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div > section {
+    height: 15vh;
+    width: 80%;
+    background: rgb(160, 0, 60);
+    margin: 0 0 20px 0;
+}
+
+.small {
+    width: 39.5%;
+}
+
+div .small:nth-child(2) {
+    margin-right: 1vh;
+}
+
+div .small:nth-child(5) {
+    margin-right: 1vh;
+}
+
+footer {
+    background: rgb(160, 0, 60);
+    height: 80px;
+    margin: 0 30px 10px 30px;
+}
