@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+header {
+    background: rgb(135, 181, 197);
+    height: 15vh;
+}
+
+main {
+    background: rgb(160, 0, 60);
+    height: 25vh;
+    margin-bottom: 10px;
+}
+
+div {
+    position: absolute;
+    width: 100%;
+}
+
+div > section {
+    position: relative;
+    height: 15vh;
+    background: rgb(160, 0, 60);
+    margin: 5px 0 20px 150px;
+}
+
+footer {
+    position: relative;
+    background: rgb(160, 0, 60);
+    height: 8vh;
+    margin: 0 30px 10px 30px;
+}
