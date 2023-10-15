@@ -1,0 +1,38 @@
+* {
+margin: 0;
+}
+
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(135, 181, 197);
+    height: 15vh;
+}
+
+main {
+    background: rgb(160, 0, 60);
+    height: 25vh;
+    margin-bottom: 20px;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+div > section {
+    height: 15vh;
+    width: 80%;
+    background: rgb(160, 0, 60);
+    margin: 0 0 20px 0;
+}
+
+footer {
+    background: rgb(160, 0, 60);
+    height: 80px;
+    margin: 0 30px 10px 30px;
+}
